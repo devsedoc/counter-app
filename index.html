@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Counter App</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gray-100">
+
+    <div class="bg-white p-10 rounded-2xl shadow-lg text-center w-80">
+
+        <h1 class="text-3xl font-bold mb-8">
+            Counter App
+        </h1>
+
+        <div class="flex items-center justify-center gap-6 mb-8">
+
+            <button
+                id="decreaseBtn"
+                class="w-12 h-12 rounded-full bg-red-500 text-white text-2xl hover:bg-red-600">
+                -
+            </button>
+
+            <span
+                id="counter"
+                class="text-5xl font-bold w-20">
+                0
+            </span>
+
+            <button
+                id="increaseBtn"
+                class="w-12 h-12 rounded-full bg-green-500 text-white text-2xl hover:bg-green-600">
+                +
+            </button>
+
+        </div>
+
+        <button
+            id="resetBtn"
+            class="px-6 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900">
+            Reset
+        </button>
+
+        <p class="mt-6 text-gray-500 text-sm">
+            Use + and - buttons or your keyboard
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
