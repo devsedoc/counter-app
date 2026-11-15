@@ -2,6 +2,8 @@
 
 A simple and responsive counter application built using **HTML, JavaScript, and Tailwind CSS**.
 
+**Live site:** [https://devsedoc.github.io/counter-app/](https://devsedoc.github.io/counter-app/)
+
 ## Features
 
 * Increment the counter
