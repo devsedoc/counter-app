@@ -37,7 +37,7 @@ CounterApp/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/counter-app.git
+git clone https://github.com/devsedoc/counter-app.git
 ```
 
 2. Open the project folder.
